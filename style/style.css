@@ -180,9 +180,23 @@ h1, h2, h3 {
 /* Mobile Responsiveness */
 
 @media(max-width:568px) {
-    .pimg1, .pimg2, .pimg3 {
+    
+    .pimg1, .pimg2, .pimg3, .pimgtestimonial, .pimgterms{
         background-attachment: scroll;
     }
+    .ptext{
+        font-size: 10px;
+    }
+    .navbar {
+        background-color: #ffffff;
+    }
+    .wow {
+        animation: none !important;
+      }
+      .aboutimg {
+        width: 60%;
+    }
+    
 }
 
 /* Formatting (HOME PAGE) */
@@ -230,7 +244,7 @@ FIGCAPTION {
 .twitchimg {
     float: left;
     padding: 10px;
-    width: 440px;
+    /* width: 440px; */
     height: 240px;
 }
 
