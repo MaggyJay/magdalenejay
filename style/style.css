@@ -201,6 +201,7 @@ h1, h2, h3 {
         text-align: justify !important;
     }
     .carousel {
+        /* display: none; */
         height: 350px !important;
         width: 300px !important;
         position: relative;
