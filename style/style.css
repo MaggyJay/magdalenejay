@@ -28,44 +28,40 @@ nav .navbar-nav li a {
 /* Parallax */
 
 .section {
-    padding:50px 80px;
-    
-    
-  }
+    padding: 50px 80px;
+}
+
 .section-terms {
     background-image: linear-gradient(to bottom right, #ffffff, #E5989B);
     color: #666;
-    padding-bottom:  100px;
+    padding-bottom: 100px;
 }
+
 .section-testimonial {
     background-image: linear-gradient(to bottom right, #FFA585, #FFEDA0);
     color: #666;
-    padding-bottom:  100px;
+    padding-bottom: 100px;
 }
 
 .about-section {
     background-image: linear-gradient(to bottom right, #CA806E, #5cc9f5);
     color: #666;
-    padding-bottom:  100px;
+    padding-bottom: 100px;
 }
 
 .section-light {
-  
-        background-image: linear-gradient(to bottom right, #CA806E, #5cc9f5);
-      
+    background-image: linear-gradient(to bottom right, #CA806E, #5cc9f5);
     background-color: #CA806E;
     color: #666;
-    padding-bottom:  100px;
+    padding-bottom: 100px;
 }
 
 .section-dark {
     background-image: linear-gradient(to bottom right, #bb705b, #b2e5e7);
     /* background-color: #bb705b; */
-    
     color: #ddd;
     padding-bottom: 120px;
 }
-
 
 .pimg1, .pimg2, .pimg3, .pimg4, .pimgtestimonial, .pimgterms {
     position: relative;
@@ -89,7 +85,6 @@ nav .navbar-nav li a {
 .pimg2 {
     background-image: url('../assets/black-ball-point-pen-with-brown-spiral-notebook-733852.jpg');
     min-height: 400px;
-    
 }
 
 .pimg3 {
@@ -103,7 +98,7 @@ nav .navbar-nav li a {
     opacity: 0.50;
 } */
 
-.pimgtestimonial{
+.pimgtestimonial {
     background-image: url('../assets/photo-of-person-holding-notebook-3363103.jpg');
     min-height: 400px;
 }
@@ -144,6 +139,7 @@ nav .navbar-nav li a {
     color: #f7f4e3;
     padding: 20px;
 }
+
 .bordertest {
     background-color: #ffffff;
     padding: 20px;
@@ -180,53 +176,51 @@ h1, h2, h3 {
 /* Mobile Responsiveness */
 
 @media(max-width:568px) {
-    
-    .pimg1, .pimg2, .pimg3, .pimgtestimonial, .pimgterms{
+    .pimg1, .pimg2, .pimg3, .pimgtestimonial, .pimgterms {
         background-attachment: scroll;
     }
-    .ptext{
-        font-size: 12px;
+    .ptext {
+        font-size: 6px;
     }
     .navbar {
         background-color: #ffffff;
     }
     .wow {
         animation: none !important;
-      }
-    .aboutimg {
-        width: 60%;
     }
-
+    .aboutimg {
+        width: 60% !important;
+    }
     .ptext .border {
         background-color: #bb705b;
         color: #f7f4e3;
         padding: 5px;
     }
-
-    .chakrame, FIGCAPTION{
+    .chakrame, FIGCAPTION {
         margin-left: 0em !important;
+        text-align: justify !important;
     }
-
-    .section-dark {
-        margin-right: auto;
-        margin-left: auto;
-        width: 100%;
+    .carousel {
+        height: 350px !important;
+        width: 300px !important;
+        position: relative;
+        padding-left: 10px;
     }
-    
+    .twitchimg {
+        width: 300px;
+    }
 }
 
 /* Formatting (HOME PAGE) */
 
 .aboutimg {
-   
     /* float: left; */
     width: 30%;
     height: auto;
     padding: 10px;
-    
 }
 
-.chakrame{
+.chakrame {
     width: 70%;
     height: auto;
     padding: 10px;
@@ -234,14 +228,11 @@ h1, h2, h3 {
 }
 
 FIGCAPTION {
-
     font-style: italic;
     font-variant: small-caps;
     margin-left: 10em;
     text-align: right;
-    
-    }
-
+}
 
 .sectiontwo {
     text-align: right;
@@ -250,10 +241,13 @@ FIGCAPTION {
 .articleslide {
     float: right;
 }
-.img-fluid{
-    height: 350px; width: 500px;
+
+.img-fluid {
+    height: 350px;
+    width: 500px;
 }
-.slidetext{
+
+.slidetext {
     color: #f7f4e3;
 }
 
@@ -266,8 +260,8 @@ FIGCAPTION {
 
 /* Formatting TESTIMONIAL PAGE */
 
-.testpage{
-    color:#856266;
+.testpage {
+    color: #856266;
 }
 
 /* Footer */
@@ -279,7 +273,9 @@ FIGCAPTION {
 .footer-copyright {
     background-color: #d98789;
 }
+
 /* Transparent to Solid */
+
 .navbareffect.solid {
     background-color: #ffffff;
     transition: background-color 4s ease 0s;
@@ -289,7 +285,3 @@ FIGCAPTION {
 .navbar-page {
     background-color: #ffffff;
 }
-
-
-
-  
