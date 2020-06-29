@@ -196,6 +196,12 @@ h1, h2, h3 {
         color: #f7f4e3;
         padding: 10.5px;
     }
+    .bordertest {
+        background-color: #ffffff;
+        padding: 20px;
+        font-size: 20px;
+        opacity: 0.7;
+    }
     .chakrame, FIGCAPTION {
         margin-left: 0em !important;
         text-align: justify !important;
