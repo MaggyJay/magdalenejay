@@ -199,6 +199,8 @@ h1, h2, h3 {
     .chakrame, FIGCAPTION {
         margin-left: 0em !important;
         text-align: justify !important;
+        width: 100% !important;
+    font-size: 10px;
     }
     .carousel {
         /* display: none; */
