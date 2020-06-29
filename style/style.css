@@ -185,7 +185,7 @@ h1, h2, h3 {
         background-attachment: scroll;
     }
     .ptext{
-        font-size: 10px;
+        font-size: 12px;
     }
     .navbar {
         background-color: #ffffff;
@@ -193,8 +193,24 @@ h1, h2, h3 {
     .wow {
         animation: none !important;
       }
-      .aboutimg {
+    .aboutimg {
         width: 60%;
+    }
+
+    .ptext .border {
+        background-color: #bb705b;
+        color: #f7f4e3;
+        padding: 5px;
+    }
+
+    .chakrame, FIGCAPTION{
+        margin-left: 0em !important;
+    }
+
+    .section-dark {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
     }
     
 }
